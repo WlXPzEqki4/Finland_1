@@ -6,6 +6,10 @@
 # Check if there are any existing remotes
 git remote -v
 
+
+
+
+
 # Initialize git in your local project
 git init
 
@@ -44,6 +48,25 @@ git commit -m "Your update message here"
 git push
 
 
+
+
+
+git remote -v
+
+
+rm -rf .git
+
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/WlXPzEqki4/Finland_1.git
+
+
+git push -u origin main
 
 
 

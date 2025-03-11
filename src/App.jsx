@@ -23,6 +23,13 @@ import NetworkDiagram2 from './components/NetworkDiagram2';
 import FinnishNetworkGraph from './components/FinnishNetworkGraph'; 
 import New from './components/New';
 
+import NetworkDiagram from './components/networkfromv0';
+
+
+
+
+
+
 
 function App() {
   return (
@@ -68,6 +75,14 @@ function App() {
       <FinnishNetworkGraph />
 
       <New />
+
+      <NetworkDiagram />
+
+
+      
+
+
+
 
     </div>
 
