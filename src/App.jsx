@@ -18,6 +18,7 @@ import FinnishLeadershipDirectory_smooth from './components/FinnishLeadershipDir
 // import FacultyNetwork from './components/FacultyNetwork';
 // import FacultyNetwork_reworked from './components/FacultyNetwork_reworked';
 // import Faculty_network_3 from './components/Faculty_network_3';
+
 import FacultyNetwork_augmented from './components/FacultyNetwork_augmented';
 import NetworkDiagram2 from './components/NetworkDiagram2';
 import FinnishNetworkGraph from './components/FinnishNetworkGraph'; 
