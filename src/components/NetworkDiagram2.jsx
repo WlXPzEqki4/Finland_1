@@ -2001,7 +2001,7 @@ const NetworkDiagram = () => {
               >
                 {tab === 'keyPoints' ? 'Key Points' : 
                  tab === 'thematicTags' ? 'Thematic Tags' :
-                 tab === 'prose' ? 'Original Prose' : 
+                 tab === 'prose' ? 'Analysis' : 
                  tab === 'network' ? 'Network' : 'Affiliations'}
               </button>
             ))}
