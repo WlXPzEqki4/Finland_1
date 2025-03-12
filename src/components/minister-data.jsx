@@ -1744,11 +1744,11 @@ import hakanAgnevallImage from '../assets/images/HakanA.png';
 import ehrnoothFamilyImage from '../assets/images/EhnoothFamily.png';
 import robinLangenskioldImage from '../assets/images/RobinL.png';
 import rafaelaSeppalaImage from '../assets/images/RafaelaS.png';
-import bjornWahlroosImage from '../assets/images/RafaelaS.png';
+import bjornWahlroosImage from '../assets/images/BjornW.png';
 import jyriHakemiesImage from '../assets/images/JyriH.png';
 import jussiHallaahoImage from '../assets/images/JussiH.png';
 
-import nathaliAhlstromImage from '../assets/images/JussiH.png';
+import nathaliAhlstromImage from '../assets/images/NathaliA.png';
 import seppoVikstromImage from '../assets/images/SeppoV.png';
 import lassiNoponenImage from '../assets/images/LassiN.png';
 import markusRauramoImage from '../assets/images/MarkusR.png';
