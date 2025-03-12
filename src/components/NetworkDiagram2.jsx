@@ -697,6 +697,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { ministersData, ministerImages, hexagonPath } from './minister-data';
