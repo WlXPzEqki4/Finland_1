@@ -22,7 +22,10 @@ import FinnishLeadershipDirectory_smooth from './components/FinnishLeadershipDir
 import FacultyNetwork_augmented from './components/FacultyNetwork_augmented';
 import NetworkDiagram2 from './components/NetworkDiagram2';
 import FinnishNetworkGraph from './components/FinnishNetworkGraph'; 
-import New from './components/New';
+// import New from './components/New';
+import FinnishLeadershipDirectory2 from './components/FinnishLeadershipDirectory2';
+
+
 
 import NetworkDiagram from './components/networkfromv0';
 
@@ -66,16 +69,18 @@ function App() {
 
 
 
-
-
-
       <FacultyNetwork_augmented />
 
       <NetworkDiagram2 />
 
       <FinnishNetworkGraph />
 
-      <New />
+      {/* <New /> */}
+
+      <FinnishLeadershipDirectory2 />
+
+
+      
 
       <NetworkDiagram />
 

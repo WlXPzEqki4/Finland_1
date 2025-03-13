@@ -771,15 +771,8 @@ const FinnishLeadershipDirectory = () => {
     diplomaticRank: ''
   });
   
-  const [expandedCardId, setExpandedCardId] = useState(null);
+const [expandedCardId, setExpandedCardId] = useState(null);
   
-  // Updated data structure with new fields for each official
-
-// Updated data structure with new fields for each official
-
-
-
-
 const officials = [
   {
     id: 1,
@@ -1234,6 +1227,25 @@ const officials = [
     <div className="max-w-7xl mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-blue-800">Finnish Leadership Directory</h1>
       
+    {/* HOW TO USE BOX SNIPPET */}
+    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+      <h2 className="text-xl font-semibold text-blue-800 mb-2">How to Use</h2>
+      <p className="text-gray-700 mb-3">
+        This directory provides a list of Finnish leaders, their roles, and their connections to the UAE.
+        You can filter, expand, and explore their profiles as follows:
+      </p>
+      <ul className="list-disc list-inside text-gray-700 space-y-1">
+        <li>Use the dropdowns to refine by sector, type, organisation, or diplomatic rank.</li>
+        <li>Click on an official’s card to reveal detailed information.</li>
+        <li>Click “Close Details” to collapse the expanded card view.</li>
+        <li>Use “Reset Filters” to see the entire list again.</li>
+      </ul>
+    </div>
+    {/* END HOW TO USE BOX SNIPPET */}
+
+
+
+
       {/* Filter Section */}
       <div className="bg-gray-100 p-4 rounded-lg mb-6">
         <div className="flex justify-between items-center mb-3">

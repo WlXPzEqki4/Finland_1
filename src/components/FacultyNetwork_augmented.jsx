@@ -1643,8 +1643,6 @@
         "Business": "#C9E175",
         "Government": "#8DD3C7",
         "Third Party": "#8D63C7"
-    
-    
       };
       
       // Simplified data structure
@@ -3357,8 +3355,28 @@
 
   return (
     <div className="w-full max-w-7xl mx-auto p-4">
-      <h1 className="text-3xl font-bold text-blue-700 mb-6">AFFILIATIONS</h1>
+      <h1 className="text-3xl font-bold text-blue-700 mb-6">Finnish Leadership Affiliations</h1>
       
+    {/* HOW TO USE BOX SNIPPET */}
+    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+      <h2 className="text-xl font-semibold text-blue-800 mb-2">How to Use</h2>
+      <p className="text-gray-700 mb-3">
+        This network visualisation shows Finnish leaders, their affiliations, and how they collaborate. Hover over or click on nodes to explore their links and see more details on the right.
+      </p>
+      <ul className="list-disc list-inside text-gray-700 space-y-1">
+        <li>Hover over a node to highlight its connections.</li>
+        <li>Click on a node to view its profile in the panel on the right.</li>
+        <li>Scroll through the diagram to explore all connections.</li>
+        <li>Click another node (or outside) to reset highlighting.</li>
+      </ul>
+    </div>
+    {/* END HOW TO USE BOX SNIPPET */}
+
+
+
+
+
+
       {/* Main content area with the network visualization and profile */}
       <div className="flex flex-col md:flex-row gap-6">
         {/* Network visualization container - takes up left 2/3 */}
@@ -3472,9 +3490,9 @@
     </>
   )}
 
-  <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg transition-colors hover:bg-blue-700">
+  {/* <button className="mt-6 w-full bg-blue-600 text-white py-2 rounded-lg transition-colors hover:bg-blue-700">
     View Full Profile
-  </button>
+  </button> */}
 </div>
 
 
